@@ -1,0 +1,79 @@
+
+    padding: 0;
+}
+.container {
+    padding: 0 1.5rem;
+    margin: auto; 
+}
+#nav{
+    background-color: wheat;
+}
+#nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+#nav ul {
+    display: flex;
+}
+#nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+#nav ul li a {
+    text-decoration: none;
+}
+#hero {
+    background-color: violet;
+    color: white;
+    height: 70vh;
+    display: flex;
+}
+#hero .container {
+    display: flex;
+}
+#about .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about .container .about-image img {
+    height: 220px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* instagram */
+  .fa-instagram {
+      background: violet;
+      color: beige;
+  }
+  /* whatsapp */
+  .fa-whatsapp {
+      background: green;
+      color: beige;
+  }
+   
